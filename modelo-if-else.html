@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função if e else</title>
+</head>
+<body>
+    <h1>Agora com o if e else</h1>
+    <div id="resultado"></div>
+    <script>
+        let num = Number( prompt("digite um numero"));
+        let msg;
+
+        if(num < 100){
+          num = num +50  
+        }else{
+            num = num +150
+        } 
+        msg = "o resultado é: "
+        document.getElementById("resultado").innerHTML = msg + num;
+    </script>
+</body>
+</html>
